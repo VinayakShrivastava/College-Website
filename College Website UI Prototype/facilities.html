@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Vin University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <Section class="sub-header">
+        <nav>        
+            <a href="cllgweb.html"><img src="image/vw.png"></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i> 
+                <ul>
+                    <li><a href="cllgweb.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="facilities.html">FACILITY</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showeMenu()"></i>        
+        </nav>
+<h1>Facilities</h1>
+    </Section>
+
+<!----------facilities------->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>The Facilities Management team provides a safe, clean, healthy and<br>well-maintained campus environment. We ensure the functionality of the built environment by integrating people, places, process, and technology.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="image/book-library-with-old-open-textbook-stack-piles-literature-text-archive-reading-desk.jpg" alt="">
+            <h3>World Class Library</h3>
+            <p>A library is a collection of materials, books or media that are accessible for use and not just for display purposes. A library provides physical (hard copies) or digital access (soft copies) materials.</p>
+            </div>  
+       
+        <div class="facilities-col">
+            <img src="image/istockphoto-498509771-612x612.jpg" alt="">
+            <h3>Largest Play Ground</h3>
+            <p>University Athletics and Recreation department offers a range of programming and facilities designed to engage students and enhance their health and wellness.
+            </p> 
+            </div>   
+        
+        <div class="facilities-col">
+            <img src="image/istockphoto-641510086-170667a.jpg" alt="">
+            <h3>Tasty And Healthy Food</h3>
+            <p>Food services are available on University campuses and are provided through our vendor, Chartwells.</p>
+            </div>       
+    </div>
+
+</section>
+
+<!--------footer------>
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Careers at ConestogaApplied research Giving to<br>Conestoga Policies & procedures Emergency closure<br>information News & events College service notices</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Powered by- Vinayak Shrivastava</p>
+</section>
+
+<!-- --------JavaScript for Toggle Menue--------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showeMenu(){
+        navLinks.style.right  ="0"
+    }
+    function hideMenu(){
+        navLinks.style.right  ="-200px"
+    }
+</script>
+</body>
+</html>

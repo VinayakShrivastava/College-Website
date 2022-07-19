@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Vin University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <Section class="sub-header">
+        <nav>        
+            <a href="cllgweb.html"><img src="image/vw.png"></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i> 
+                <ul>
+                    <li><a href="cllgweb.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="facilities.html">FACILITY</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showeMenu()"></i>        
+        </nav>
+<h1>Our Courses</h1>
+    </Section>
+
+<!----------Course------->
+<section class="course">
+    <h1>WHAT PROGRAM IS RIGHT FOR ME?</h1>
+    <p>FIND THE PROGRAM THAT IS RIGHT FOR YOU BY SELECTING
+        THE PERSONALITY TRAITS THAT DESCRIBE YOU BEST.</p>
+    
+    <div class="row">
+       <div class="course-col">
+            <h3>intermediate</h3>
+            <p>Students who don't achieve five GCSE passes at Grade 4 and above will be considered for the College's Intermediate Programme. This one year programme is pitched at GCSE level and is suitable for a limited number of students who achieve an average of a Grade 3, over their four best subjects at GCSE.
+            </p>
+        </div> 
+    
+        <div class="course-col">
+            <h3>Degree</h3>
+             <p>A student who is pursuing a degree after high school, at the first level of higher education at a college or university is an undergraduate student. Undergraduate students are typically those working to earn a bachelor's degree, an associate's degree. An undergraduate (UG) degree is sometimes called a first degree outside of the US. There are other types of undergraduate degrees as well outside of the US like foundation degree.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduate</h3>
+            <p>Post-graduate programs are designed to leverage your existing college or university education with specialized, employable skills to help you launch your dream career. Study in Canada and choose a Fanshawe post-graduate program that will earn you a Graduate Certificate and hands-on work experience that will help set you apart in the competitive job market. With more than 50 post-graduate options for international students, finding your fit has never been easier.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!--------footer------>
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Careers at ConestogaApplied research Giving to<br>Conestoga Policies & procedures Emergency closure<br>information News & events College service notices</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Powered by- Vinayak Shrivastava</p>
+</section>
+
+<!-- --------JavaScript for Toggle Menue--------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showeMenu(){
+        navLinks.style.right  ="0"
+    }
+    function hideMenu(){
+        navLinks.style.right  ="-200px"
+    }
+</script>
+</body>
+</html>
